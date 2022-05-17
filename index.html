@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4b14e8780d.js" crossorigin="anonymous"></script></head>
+
+<body>
+    <header class="header">
+        <h1 class="title">Sketchy <i class="fa-solid fa-fw  fa-pen-ruler"></i> </h1>
+        <h2 class="sub-title">Sketch whatever you like</h2>
+    </header>
+
+    <main>
+        <div class="options">
+            <input id="currentColor" type="color" value="black">
+            <button id="colorBtn">Color</button>
+            <button id="eraserBtn">Eraser</button>
+            <button id="deleteBtn">Delete</button>
+        </div>
+
+        <div class="grid" id="grid"></div>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            nechititudorr
+        </p>
+
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>
