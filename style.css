@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Koulen', sans-serif;
-    margin:0;
+    margin: 0;
 }
 
 /*Header*/
@@ -46,8 +46,11 @@ button,
 input {
     width: 100%;
     border: none;
-    color: inherit;
     cursor: pointer;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    outline: none;
 }
 
 button {
@@ -57,12 +60,20 @@ button {
 }
 
 button.active {
-    background-color: black;
+    background-color: steelblue;
     color: white;
+    font-weight: bold;
+    font-size: large;
 }
 
-button:hover {
+button:hover,
+input[type='color']:hover {
     transform: scale(1.07);
+}
+
+input[type='color'] {
+    width: 100px;
+    height: 100px;
 }
 
 .grid {
